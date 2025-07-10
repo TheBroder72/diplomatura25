@@ -1,56 +1,60 @@
-.maintitle {
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-
-}
-
-.titulo1 {
+/*  font-family: "Montserrat", sans-serif; */
+.t1 {
+    height: 100%;
+    align-items: center;
+    background: #8878ff;
+    background: linear-gradient(98deg, rgba(136, 120, 255, 1) 46%, rgba(70, 0, 222, 1) 100%);
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-decoration: underline;
-
+    margin-top: 40px;
+}   
+.t1 h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
 }
 
+.datosp {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 80%;
+    height: 100%;
+    background-color: #918acc;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display:list-item
+}
+
+.datosp h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.datosp p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
 .listas {
-    width: 400px;
-    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 80%;
+    height: 100%;
+    background-color: #8c88b8;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.listas h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.listas p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    border: 2px solid black;
-    margin-left: 400px;
-    box-sizing: border-box;
-}
-
-.sub1 {
-    text-decoration: underline;
-}
-
-.sub2 {
-    text-decoration: underline;
-}
-
-.sub3 {
-    text-decoration: underline;
-}
-
-.s1 {
-    text-decoration: underline;
-}
-
-.s2 {
-    text-decoration: underline;
-}
-
-.s3 {
-    text-decoration: underline;
-}
-
-.Selfie {
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    margin-left: 470px;
-    border: 2px solid black;
+    font-size: 1.5rem;
 }
